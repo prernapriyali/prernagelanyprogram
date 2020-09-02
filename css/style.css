@@ -25,3 +25,29 @@ form{
 #survery-form{
     background-color: silver;
 }
+fieldset{
+    border:1px solid brown;
+    margin: 10px ;
+}
+legend{
+    font-weight: 700; ; 
+}
+number{
+    width: 150px;
+}
+div+div{
+    margin-top:1em ;
+}
+input,textarea{
+    width: 200px;
+    border:1px solid #999;
+
+}
+input:focus,textarea:focus{
+    border-color: chocolate;
+}
+textarea{
+    vertical-align: top;
+    height:5em;
+    resize: vertical;
+}
