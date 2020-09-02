@@ -45,8 +45,50 @@
 
         </fieldset>
      <fieldset>
-       <label for="gender"></label >
+       <label for="satisfaction">check that all that apply</label >
+        <p>
+        <input type ="checkbox" name = "yes" value="yes"> Yes <br>
+        <input type ="checkbox" name = "no" value="yes">NO <br>
+        <input type ="checkbox" name = "None" value="None"> None <br>
+        </p>
+
+
      </fieldset>
+     <fieldset>
+
+     <div>
+      <label for="recomendation">Any Recommendation</label>
+       <select id= "dropdown">
+        <option value="left">Relative</option>
+        <option value="right">Friends</option>
+        <option value="left">None</option>
+        </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend> Your reviews</legend>
+        <div>
+          <label for="mesg"></label>
+          <p>
+            Please give your reviews in 50words
+          </p>
+     <div>
+          <textarea id="msg" name="user_name" rows="4" cols="20">Enter your Text</textarea>
+
+
+          
+
+        </div>
+      </fieldset>
+      <div id="Submittbutton">
+        <button type="submit" id="submit">Submit</button>
+        </div>
+
+
+
+
+
+
         
 
     </form >
