@@ -1,0 +1,27 @@
+body{
+    font-family: 'helvetica';
+    font-size: 1.2 em;
+}
+#outside{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+ font-size:3em;
+ text-align: center;
+ color: royalblue;
+ text-transform: capitalize;
+}
+form{
+    margin: 0 auto;
+    width:  70%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius:  1em;
+}
+
+#survery-form{
+    background-color: silver;
+}
